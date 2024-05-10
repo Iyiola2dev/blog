@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY BLOG</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen w-screen text-white bg-black">
+    <header class="bg-black text-white">
+      <div class="flex flex-row items-center justify-between mr-6 text-xl md:text-3xl">
+        <div class="flex flex-row items-center">
+          <img
+            class="h-10"
+            src="./images/R-removebg-preview (1).png"
+            alt="BMW logo"
+          />
+          <h2>BMWBLOG</h2>
+        </div>
+        <nav class="hidden md:flex gap-6 mx-4 ">
+          <!-- <a href="#home">Home</a>
+          <a href="#about">About us</a>
+          <a href="#article">Article</a>
+          <a href="#contact">Contact</a> -->
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#article">Article</a>
+          <a href="contact">Contact</a>
+        </nav>
+        <div class="md:hidden">
+          <h2>MENU</h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="home" class="w-fit h-fit">
+        <div class="flex relative">
+          <img
+            src="./images/Bmw M6 Black HD Wallpaper Background Image.jpg"
+            alt=""
+          />
+        </div>
+        <div
+          class="mx-5 flex flex-col justify-center items-center absolute bottom-[37rem] text-sm font-bold md:absolute md:-top-[23rem] md:text-4xl lg:-bottom-[5rem] xl:-bottom-[10rem]"
+        >
+          <h2 class="text-center">
+            2024 BMW M6 REVEALED WITH MORE POWER, LESS WEIGHT. THE STORY OF A
+            DUCKLING THAT BECAME A BLACK SWAN
+          </h2>
+          <div class="flex items-center gap-5 md:text-2xl">
+            <h3>By Iyiola Lexicon</h3>
+            <h3 class="explore">
+              <a href="./video/istockphoto-1505840199-640_adpp_is.mp4"
+                >Explore</a
+              >
+            </h3>
+          </div>
+        </div>
+      </section>
+      <section id="about" class="mt-4 flex flex-col border md:text-4xl">
+        <div class="flex justify-center items-center">
+          <h2 class="text-white font-bold">ABOUT BMW</h2>
+        </div>
+        <div class="flex flex-col gap-3 mx-5 lg:flex-row lg:mx-7 lg:gap-5">
+          <div>
+          <div class="text-sm font-bold flex flex-col items-center">
+            <img class="lg:h-[20rem] lg:w-[80rem]"
+              src="./images/Bmw M4 Black HD Wallpaper Background Image.jpg"
+              alt=""
+            />
+            <h2 class="md:text-3xl xl:text-2xl">BMW M4 by EDELWEISS with a Powerful Engine</h2>
+          </div>
+          <div class="text-sm font-bold flex flex-col items-center">
+            <img class="lg:h-[20rem] lg:w-[80rem]" src="./images/bmw_m4_coupe_m_performance-HD.jpg" alt="" />
+            <h2 class="mx-3 text-center md:text-3xl xl:text-2xl">
+              BMW M4 White by EDELWEISS with a Powerful Engine
+            </h2>
+          </div>
+        </div>
+        <div>
+          <div class="text-sm font-bold flex flex-col items-center">
+            <img class="lg:h-[20rem] lg:w-[80rem]"
+              src="./images/Bmw m8 Gran Coupe First Edition 2020.jfif"
+              alt=""
+            />
+            <h2 class="mx-3 text-center md:text-3xl xl:text-2xl">
+              Bmw m8 Gran Coupe First Edition 2020
+            </h2>
+          </div>
+          <div class="text-sm font-bold flex flex-col items-center">
+            <img class="lg:h-[20rem] lg:w-[80rem]" src="./images/BMW i8 hybrid.jfif" alt="" />
+            <h2 class="mx-3 text-center md:text-3xl xl:text-2xl">
+              BMW i8 hybrid by EDELWEISS with a Powerful Engine
+            </h2>
+          </div>
+        </div>
+        </div>
+      </section>
+      <article id="article" class="mt-4 flex flex-col border font-bold text-[#77868f] md:text-3xl lg:border-0">
+        <span class="flex flex-col items-center ">BMW LATEST NEW</span>
+        <div class="mx-4 flex flex-col border md:gap-4 mb-5 lg:flex-row lg:border-0">
+          <div class="flex flex-col gap-4 border-b font-bold lg:border lg:m-3 ">
+            <div class="flex flex-col gap-3">
+              <h3>By Lexicon Iyi</h3>
+              <h2>
+                2025 BMW M40i Gran Coupe Gets More Power With Mild Hybrid Tech
+              </h2>
+              <p>
+                BMW updated both i4 aand 4 seriies Gran Coupe with styling
+                tweaks, new lights, and its lastest infortainment system
+              </p>
+            </div>
+            <div>
+              <h6 class="font-medium">APR 9 2024</h6>
+            </div>
+          </div>
+          <div class="flex flex-col gap-4 border-b font-bold md:gap-4 lg:border lg:m-3 xl:gap-4">
+            <div  class="flex flex-col gap-3">
+              <h3>By T-max</h3>
+              <h2>
+                BMW- Rimac Battery Supply Deal Is a Full-Circle Moment for Mate
+                Rimac
+              </h2>
+              <p>
+                Mate Rimac got his start electrifying BMWS with new battery
+                power. Now, 14 years later, he's doing it again. But on a much
+                bigger scale. Bet
+              </p>
+            </div>
+            <div>
+              <h6 class="font-medium ">APR 9 2024</h6>
+            </div>
+          </div>
+        </div>
+      </article>
+    </main>
+    <footer id="contact" class="mt-4 flex flex-col border font-bold text-[#77868f] mx-5 md:text-3xl items-center">
+      <div class="flex items-center">
+        <h4>CONTACT US</h4>
+      </div>
+      <div class="flex items-center">
+      <p class="flex flex-col items-center">
+       <a href="mailto:lexicon@gmail.com">Lexicon@gmail.com</a>
+       <a href="tel:090444444444">0900000000400</a>
+      </p>
+    </div>
+    </footer>
+  </body>
+</html>
